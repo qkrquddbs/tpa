@@ -1,0 +1,5 @@
+{
+  "tpa.command.tpa": "Request teleportation to a player",
+  "tpa.command.tpaccept": "Accept a teleportation request",
+  "tpa.command.tpdeny": "Deny a teleportation request"
+}
