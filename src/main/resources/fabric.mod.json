@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "tpa-mod",
+  "version": "${version}",
+  "name": "TPA Mod",
+  "description": "Teleport Request Mod for Fabric 1.21.1",
+  "authors": ["qkrquddbs"],
+  "contact": {
+    "website": "https://github.com/qkrquddbs/tpa"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tpa.TPAMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  }
+}
